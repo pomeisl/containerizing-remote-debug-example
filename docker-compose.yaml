@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  example-app:
+    image: example-app
+    ports:
+      - 8080:8080
+      - 5005:5005
